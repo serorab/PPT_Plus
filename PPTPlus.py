@@ -97,8 +97,6 @@ def jugar(opcion):
     elemento = opcion
     computadora = random.choice(['Piedra', 'Papel', 'Tijera'])
 
-    print(f"Elegiste '{elemento}' y la computadora eligió '{computadora}'")
-
     if elemento == computadora:
         resultado = '¡Empate!'
         global empates
